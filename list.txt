@@ -1,0 +1,15 @@
+List 
+
+Works similarly to the the 'ls' commmand on the CLI.
+Files/folders are color-coded.  Files are light blue, folders are magenta.
+Colors can be changed utilizing Chalk (npm).
+This can be run from anywhere on the CLI.  
+
+To make it run:
+    in terminal: 
+        chmod +x index.js
+        npm link
+
+    code:
+        in index.js: #!/usr/bin/env node
+        in json "bin": {"nls": "index.js"}
